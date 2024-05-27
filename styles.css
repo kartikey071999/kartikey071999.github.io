@@ -1,7 +1,17 @@
-body {
-    font-family: Arial, sans-serif;
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
     background-color: #f4f4f4;
 }
 
@@ -19,6 +29,10 @@ header p {
 header a {
     color: #fff;
     text-decoration: none;
+}
+
+main {
+    flex: 1;
 }
 
 section {
