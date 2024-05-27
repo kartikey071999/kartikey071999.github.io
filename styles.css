@@ -6,20 +6,66 @@
 
 html, body {
     height: 100%;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #eaeaea;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #333;
+    background-color: #282828;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
+    padding: 2em 0;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2em;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.text {
+    max-width: 600px;
+}
+
+.name-link, .image-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.name-link:hover, .image-link:hover {
+    color: #00cc99;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: #00cc99;
+    text-shadow: 0 0 5px #00cc99, 0 0 10px #00cc99, 0 0 15px #00cc99;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #00cc99;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+    border-color: #ff00ff;
 }
 
 header p {
@@ -33,21 +79,23 @@ header a {
 
 main {
     flex: 1;
+    width: 90%;
+    margin: 0 auto;
 }
 
 section {
     padding: 2em;
     margin: 1em 0;
-    background-color: #fff;
+    background-color: #333;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    margin: 1em auto;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+    animation: slideUp 1s ease-in-out;
 }
 
 h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #00cc99;
     padding-bottom: 0.5em;
+    color: #00cc99;
 }
 
 ul {
@@ -69,11 +117,50 @@ ul ul {
 }
 
 footer {
-    background-color: #333;
+    background-color: #282828;
     color: #fff;
     text-align: center;
     padding: 1em 0;
     position: relative;
     bottom: 0;
     width: 100%;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover effects */
+a {
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+    color: #00cc99;
+    text-shadow: 0 0 5px #00cc99;
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+    border-color: #ff00ff;
 }
