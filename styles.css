@@ -40,19 +40,19 @@ header {
 
 .name-link, .image-link {
     text-decoration: none;
-    color: inherit;
+    color: #288a7165;
     transition: color 0.3s;
 }
 
 .name-link:hover, .image-link:hover {
-    color: #00cc99;
+    color: #288a7165;
 }
 
 header h1 {
     font-size: 3em;
     margin-bottom: 0.5em;
-    color: #00cc99;
-    text-shadow: 0 0 5px #00cc99, 0 0 10px #00cc99, 0 0 15px #00cc99;
+    color: #32e1b6db;
+    text-shadow: 0 0 2px #00cc99, 0 0 2px #00cc99, 0 0 5px #00cc99;
 }
 
 .profile-image {
