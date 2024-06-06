@@ -4,9 +4,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kartikey071999&label=Profile%20views&color=0e75b6&style=flat" alt="kartikey071999" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kartikey071999" alt="kartikey071999" /></a> </p>
-
-<img align="right" alt="Coding" width="350" src="https://i.pinimg.com/originals/e8/f4/53/e8f453469a3ec97ecd354df465d73913.gif">
 
 - 🌱 I’m currently learning **FastAPI**
 
@@ -14,7 +11,10 @@
 
 - 📫 How to reach me **kartikey071999@gmail.com**
 
-- ⚡ Fun fact **Preaty good COOK and a shy Gamer**
+- ⚡ Fun fact **Preaty good Cook and a shy Gamer**
+
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kartikey071999" alt="kartikey071999" /></a> </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
